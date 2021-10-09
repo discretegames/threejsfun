@@ -17,7 +17,7 @@ npm i
 npm run dev
 ```
 
-It should auto-open a url like <http://localhost:3002/threejsfun/> with the rotating 3D shapes.
+It should auto-open a url like <http://localhost:3000/threejsfun> with the rotating 3D shapes.
 
 <!-- Deploy:
 npm run build
