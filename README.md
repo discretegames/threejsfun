@@ -4,6 +4,8 @@ Playing around with shapes, colors, lighting, and random distributions in [Three
 
 ![screenshot](/screenshot.png)
 
+It renders over 10000 3D objects so it might be slow on some devices.
+
 Inspired by [this](https://youtu.be/Q7AOvWpIVHU) with help from
 [this](https://threejsfundamentals.org/threejs/lessons/threejs-primitives.html) and
 [this](https://datagenetics.com/blog/january32020/index.html).
