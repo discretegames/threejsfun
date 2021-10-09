@@ -45,7 +45,7 @@
 		pointLight.position.set(10, 10, 10);
 		scene.add(ambientLight, pointLight);
 
-		function sphere(radius) {
+		function spherePoint(radius) {
 			const theta = Math.random() * 2 * Math.PI;
 			const r = Math.pow(Math.random(), 1 / 3);
 			const phi = Math.acos((2 * Math.random()) - 1);
@@ -59,7 +59,7 @@
 			const geo = new THREE.SphereGeometry(Math.random(), 16, 16);
 			const mat = new THREE.MeshStandardMaterial({ color: 0xffffff - Math.round(Math.random(0xff)) });
 			const star = new THREE.Mesh(geo, mat);
-			star.position.set(...sphere(1000))
+			star.position.set(...spherePoint(1000))
 			scene.add(star);
 		});
 
